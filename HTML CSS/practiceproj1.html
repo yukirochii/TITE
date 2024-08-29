@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sankofa+Display&display=swap" rel="stylesheet">
+    <style>
+        .maindiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            border-width: 5px;
+            background-color: rgb(255, 255, 255);
+            width: 1000px;
+            height: 1350px;
+            border-radius: 100px;
+            box-shadow: 0px 10px 10px rgba(80, 80, 80, 0.5);
+          
+
+        }
+        .image{
+            width: 150px;
+            padding-left: 400px;
+            margin-top: 60px;
+        
+            
+            
+            
+        }
+        .welcome{
+            font-family: rubik;
+            font-size: 60px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 230px;
+            color: rgb(132, 53, 185);
+        }
+        .fb{
+            width: 80px;         
+            vertical-align: middle;
+            margin-left: 0;
+        }
+        .fbbutton{
+            font-size: 50px;
+            padding: 0px;
+            padding: 10px 20px 10px 20px;
+            border-radius: 50px;
+            background-color: #3b5998; 
+            border-width: 0px; 
+            margin-left: 130px;  
+            margin-top: 40px;
+            vertical-align: middle;
+        }
+        .fbbutton:hover{
+            opacity: 90%;
+        }
+        .fbbutton:active{
+            opacity: 50%;
+        }
+        .fbtext{
+            vertical-align: middle;
+            font-family: rubik;
+            font-weight: bold;
+            color: white;
+            margin-left: 0;
+            padding-right: 35px;
+           
+        }
+        .googlebutton{
+            font-size: 50px;
+            padding: 0px;
+            padding: 1px 5px ;
+            border-radius: 50px;
+            background-color: #dd4b39; 
+            border-width: 0px; 
+            margin-left: 20px;  
+            margin-top: 40px;
+            vertical-align: middle;
+        }
+        .googlebutton:hover{
+            opacity: 90%;
+        }
+        .googlebutton:active{
+            opacity: 50%;
+        }
+       .googleimage{
+        width: 100px;
+        vertical-align: middle;
+        border-radius: 100px;
+        margin: 0;
+       }
+       .googletext{
+            vertical-align: middle;
+            font-family: rubik;
+            
+            color: white;
+            margin-left: 0;
+            padding-right: 35px;
+       }
+       .line1{
+        width: 300px;
+        height: 3px;
+        background-color: rgb(92, 92, 92);
+        margin-top: 80px;
+        margin-left: 128px;
+        display: inline-block;
+       }
+       .or{
+        font-size: 50px;
+        font-family: rubik;
+        margin-left: 30px;
+       }
+       .line2{
+        width: 300px;
+        height: 3px;
+        background-color: rgb(92, 92, 92);
+        margin-top: 80px;
+        margin-left: 20px;
+        display: inline-block;
+       }
+       .Username{
+        width: 700px;
+        height: 80px;
+        margin-left: 120px;
+        margin-top: 50px;
+        font-size: 35px;
+        text-align: left;
+        border-radius: 50px;
+        font-weight: bold;
+        padding-left: 20px;
+        border: 0;
+        box-shadow: 0px 5px 5px rgba(131, 123, 123, 0.5);
+        outline: none;
+       }
+       .password{
+        width: 700px;
+        height: 80px;
+        margin-left: 120px;
+        margin-top: 30px;
+        font-size: 35px;
+        text-align: left;
+        border-radius: 50px;
+        font-weight: bold;
+        padding-left: 20px;
+        border: 0;
+        box-shadow: 0px 5px 5px rgba(131, 123, 123, 0.5);
+        outline: none;
+       }
+       .login{
+        width: 750px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: 60px;
+        font-size: 40px;
+        border-radius: 50px;
+        padding-left: 20px;
+        color: white;
+        border-width: 0;
+        background-color: #3826dd;
+        margin-bottom: 15px;
+        background-image: linear-gradient(rgb(33, 103, 233), purple);
+        
+       }
+       .login:hover{
+            opacity: 90%;
+        }
+        .login:active{
+            opacity: 50%;
+        }
+        .forget-password{
+            font-family: rubik;
+            font-size: 40px;
+            font-weight: bold;
+            margin-left: 300px;
+            margin-top: 100px;
+            color: #450e64;
+            text-decoration: none;
+            
+        }
+        .forget-password:hover{
+            opacity: 90%;
+        }
+        .forget-password:active{
+            opacity: 50%;
+        }
+        .Register{
+            font-size: 35px;
+            font-family: rubik;
+            margin-left: 160px;
+            display: inline-block;
+            margin-top: 30px;
+        }
+        .reg{
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 35px;
+            font-family: rubik;
+            margin-top: 30px;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+    <div class="container">
+        <img class="image"src="proj1/Login.png">
+        <p class="welcome">
+            Welcome To Login
+        </p>
+        <button class="fbbutton" alt="icon" >
+        <img class="fb" src="proj1/facebook.png"><span class="fbtext">facebook </span>
+       </button>
+       <button class="googlebutton" alt="icon">
+        <img class="googleimage" src="proj1/google.png"><span class="googletext">Google </span>
+       </button>
+       <hr class="line1">
+        <a class="or">or</a>
+        <hr class="line2">
+       <p> <input class="Username" type="text" placeholder="username">
+      </p>
+      <p> <input class="password" type="text" placeholder="password">
+      </p>
+      <p>
+        <button class="login">
+               Login
+        </button>
+      </p>
+      <p><a class="forget-password" href="https://www.facebook.com/" target="_blank">
+        forget password?
+      </a>
+      </p>
+      <p class="Register">
+       <a> Dont have an account</a>
+    </p>
+    <a class="reg" href="https://www.facebook.com/" target="_blank">
+        <strong> Register Now</strong></a>
+      
+    </div>
+    </div>
+</body>
+</html>
